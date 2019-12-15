@@ -78,6 +78,7 @@ driver.findElement(By.xpath("//input[@name='register']")).click();
   
   @BeforeMethod
   public void beforeMethod() {
+	  System.out.println("In beforeMethod");
   }
 
   @AfterMethod
